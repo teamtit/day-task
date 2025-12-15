@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day1css.css">
+</head>
+<body>
+    <section class="container" id="homepage">
+        <nav class="navbar">
+            <h1 class="logo">Fresh Plants</h1>
+            <h1 class="icon" id="clicked">|||</h1>
+            <ul id="about">
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#explorepa">Explore</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <div class="maincontent">
+            <div class="main1">
+            <h1 class="header">Bring The Nature <br> Close ToYou</h1>
+            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, accusamus cum labore asperiores corrupti facere magni perferendis assumenda aliquam delectus?</p>
+            <button class="btn">Explore now</button>
+            </div>
+            <div class="main2">
+                <div class="box">
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="aboutcontainer">
+            <h1 class="buy">Buy Plants</h1>
+            <h1 class="line1">|</h1>
+            <h1 class="save">Save Plants</h1>
+             <h1 class="line1">|</h1>
+            <h1 class="protect">Protect nature</h1>
+        </div>
+
+    </section>
+    <section class="explorepage" id="explorepa">
+        <div class="boxcontainer">
+            <div class="boxes" id="box11">
+                <h3>Indoor <br> Plants</h3>
+            </div>
+            <div class="boxes" id="box12">
+                <h3>Hybrid <br>Plants</h3>
+            </div>
+            <h2>Our Products</h2>
+            <div class="btns">
+                <button class="btntypes">Show flowers</button><button class="btntypes">Money plants</button><button class="btntypes">Hybrid plants</button>
+            </div>
+        </div>
+    </section>
+    <section class="buying">
+        <div class="product1" id="pro1"></div>
+        <div class="product1" id="pro2"></div>
+        <h4>Indoor flowers <br>price $45</h4>
+        <h4>Indoor plants <br>price $50</h4>
+        <div class="product1" id="pro3"></div>
+        <div class="product1" id="pro4"></div>
+        <h4>Indoor plants <br>price $30</h4>
+        <h4>Indoor plants <br>price $55</h4>
+    </section>
+    <section id="headcontant">
+        <h1 class="id1">Great plant for <br> a Better life </h1>
+        <button id="btnforex"><a href="">Explore</a></button>
+    </section>
+    
+</body>
+<script>
+  var clickevent=document.getElementById('clicked');
+  var addul=document.getElementById('about')
+  clickevent.addEventListener("click",()=>{
+    addul.classList.toggle('visible')
+    
+  })
+  addul.addEventListener("click",()=>{
+    addul.classList.remove('visible')
+  })
+    
+</script>
+</html>

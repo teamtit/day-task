@@ -1,0 +1,562 @@
+body{
+  margin: 0%;
+}
+.icon{
+    display: none;
+}
+/* @media (max-width:1024px) { */
+    
+
+ .container{
+          height: 100vh;
+          width: 100vw;
+          background: linear-gradient(to right,#558656,#294d2e,#4c7a4d);
+          
+    }
+    .navbar{
+        margin: 0%;
+        width: 100vw;
+        height: 70px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    .logo{
+        font-family: arial;
+        margin-left: 15px;
+        font-size: 25px;
+        display: grid;
+        align-items: center;
+        color: aliceblue;
+    }
+     li,a{
+        list-style: none;
+        padding-top: 0;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: arial;
+        display: inline-block;
+        justify-content: center;
+        margin-left: 20px;
+    }
+     li{
+        position: relative;
+        right: 30px;
+        padding-bottom: 10px;
+    }
+    ul{
+        position: relative; 
+        display: flex;
+        justify-content: end;
+        
+    }
+    .maincontent{
+        display: grid;
+        grid-template-columns: 55vw 40vw;
+       
+        /* grid-template-rows: 50vh 50vh; */
+    }
+     .main1{
+        display: grid;
+        grid-template-rows: 15vh 9vh 15vh;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        /* background-color: #fff; */
+    }
+    .header{
+        font-family: arial;
+        font-size: 40px;
+        margin-left: 25px;
+        color: #fff;
+    }
+    .paragraph{
+         font-family: arial;
+        font-size: 17px;
+        margin-left: 25px;
+        color: #e7e7e7be;
+    }
+    .btn{
+        width: 180px;
+        height: 45px;
+        border: none;
+        border-radius: 20px;
+        margin-left: 15px;
+        background-color: orange;
+        color: #fff;
+    }
+    .main2{
+        display: grid;
+         align-items: center;
+         justify-content: center;
+         justify-items: center;
+    }
+     .box{
+        width: 30vw;
+        height: 70vh;
+        background-color: #fff;
+        display: grid;
+        border-top-right-radius: 100px;
+        border-top-left-radius: 100px;
+        margin-right: 1px;
+         background-image: url(https://img.freepik.com/premium-photo/potted-plants-isolated-white-background_578760-972.jpg);
+         background-size: 30vw 70vh;
+       
+       
+    }
+      .aboutcontainer{
+        background-color: #294d2e;
+        width: 100vw;
+        height: 18vh;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr 1fr 2.5fr;
+    }
+    .buy{
+        display: grid;
+        align-items: center;
+        margin-left: 10px;
+        font-family: arial;
+        font-size: 25px;
+        color: #fff;
+         justify-content: center;
+    }
+    .save{
+         display: grid;
+        align-items: center;
+         font-family: arial;
+        font-size: 25px;
+        color: #fff;
+         justify-content: center;
+    }
+    .protect{
+         display: grid;
+         justify-content: center;
+        align-items: center;
+         font-family: arial;
+        font-size: 25px;
+        color: #fff;
+    }
+    .line1{
+         display: grid;
+        align-items: center;
+         font-family: arial;
+        font-size: 25px;
+        color: #fff;
+        justify-content: center;
+    }
+
+
+    .explorepage{
+        width: 100vw;
+        height:65vh ;
+        background-color: #edf4ed;
+    }
+    .boxcontainer{
+        width: 100vw;
+        height: 40vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #edf4ed;
+    }
+    .boxes{
+        width: 30vw;
+        height: 180px;
+        background-color: #eae7eb;
+        margin-left: 40px;
+        margin-top: 50px;
+        border-radius: 30px;
+        border: 1px solid rgb(220, 220, 220);
+    }
+    #box11{
+        display: grid;
+        justify-self:end;
+    }
+    #box11{
+        background-image: url(https://img.freepik.com/premium-photo/photo-indoor-plants-isolated-white-background_763111-119669.jpg);
+        background-repeat: no-repeat;
+        background-size: 30vw 150px;
+       
+        
+    }
+     #box12{
+        background-image: url(https://img.freepik.com/premium-photo/photo-indoor-plants-isolated-white-background_763111-119959.jpg);
+        background-repeat: no-repeat;
+        background-size: 30vw 150px;
+     }
+    .boxes h3{
+        margin-left: 20px;
+        font-family: arial;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .boxcontainer h2{
+        margin-left: 45vw;
+        display: grid;
+        grid-column: span 3;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    .btns{
+        display: grid;
+        grid-column: span 3;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .btntypes{
+        width: 25vw;
+        height: 40px;
+        margin-left: 3vw;
+        background-color: #f0ecf1 ;
+        border: 1px solid rgb(228, 228, 228);
+        border-radius: 10px;
+    }
+    .btntypes:hover{
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+     .buying{
+        width: 100vw;
+        height: 90vh;
+        background-color:  #edf4ed; 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 35vh 7vh 35vh 7vh;
+        
+    }
+    .product1{
+        width: 30vw;
+        height: 30vh;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    .buying h4{
+        margin-left: 80px;
+        font-family: arial;
+    }
+     #pro1{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/027/202/480/non_2x/of-carnation-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg);
+        background-size: 30vw 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #pro2{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/029/862/605/large_2x/of-sweet-william-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg);
+        background-size: 30vw 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #pro3{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/029/865/424/large_2x/of-marigold-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg);
+        background-size: 30vw 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #pro4{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/027/200/470/non_2x/of-primula-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg);
+        background-size: 30vw 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+@media all and (max-width:480px) {
+    .container{
+        height: 100%;
+        width: 100vw;
+         background: linear-gradient(to right,#558656,#3f6e45,#4c7a4d);
+    }
+    li,a{
+        list-style: none;
+        padding-top: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-family: arial;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        position: relative;
+        right: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        padding-bottom: 10px;
+        background-color: #456045;
+    }
+    ul{
+        display: block;
+        position: relative;
+        left: 0;
+        text-align: center;
+       width: 100vw;
+       display: none;
+    }
+    ul.visible{
+        display: block;
+    }
+    .navbar{
+        width: 100vw;
+        height: 15vh;
+        /* background-color: aliceblue; */
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+    }
+    .logo{
+        font-family: arial;
+        font-size: 22px;
+        font-weight: bolder;
+        display: grid;
+        align-items: center;
+        justify-content: start;
+        margin-left: 15px;
+        color: #fff;
+    }
+    .icon{
+       
+        display: grid;
+        align-items: center;
+        justify-content: end;
+        margin-right: 15px;
+        font-size: 25px;
+        color: #fff;
+
+    }
+    .maincontent{
+        display: grid;
+        grid-template-columns: 58vw 1fr;
+        grid-template-rows: 15vh 15vh;
+    }
+    .main1{
+        display: grid;
+        grid-template-rows: 10vh 5vh 11vh;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        /* background-color: #fff; */
+    }
+    .header{
+        font-family: arial;
+        font-size: 24px;
+        margin-left: 15px;
+        color: #fff;
+    }
+    .paragraph{
+         font-family: arial;
+        font-size: 10px;
+        margin-left: 15px;
+        color: #e7e7e7be;
+
+    }
+    .btn{
+        width: 150px;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        margin-left: 15px;
+        background-color: orange;
+        color: #fff;
+    }
+    .main2{
+        display: grid;
+         align-items: end;
+    }
+    .box{
+        width: 40vw;
+        height: 30vh;
+        background-color: #fff;
+        display: grid;
+        border-top-right-radius: 100px;
+        border-top-left-radius: 100px;
+        margin-right: 10px;
+        background-image: url(https://img.freepik.com/premium-photo/potted-plants-isolated-white-background_578760-972.jpg);
+        background-size: 220px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    .aboutcontainer{
+        background-color: #294d2e;
+        width: 100vw;
+        height: 15vh;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr 1fr 2.5fr;
+    }
+    .buy{
+        display: grid;
+        align-items: center;
+        margin-left: 10px;
+        font-family: arial;
+        font-size: 19px;
+        color: #fff;
+         justify-content: center;
+    }
+    .save{
+         display: grid;
+        align-items: center;
+         font-family: arial;
+        font-size: 19px;
+        color: #fff;
+         justify-content: center;
+    }
+    .protect{
+         display: grid;
+         justify-content: center;
+        align-items: center;
+         font-family: arial;
+        font-size: 19px;
+        color: #fff;
+    }
+    .line1{
+         display: grid;
+        align-items: center;
+         font-family: arial;
+        font-size: 20px;
+        color: #fff;
+        justify-content: center;
+    }
+
+    .explorepage{
+        width: 100vw;
+        height: 40vh;
+        /* height: 100%; */
+        background-color: #edf4ed;
+    }
+    .boxcontainer{
+        width: 100vw;
+        height: 45vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #edf4ed;
+    }
+    .boxes{
+        width: 45vw;
+        height: 150px;
+        background-color: #ebe8e8c1;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 30px;
+        border: 1px solid rgb(220, 220, 220);
+    }
+    #box11{
+        background-image: url(https://img.freepik.com/premium-photo/photo-indoor-plants-isolated-white-background_763111-119669.jpg);
+        background-repeat: no-repeat;
+        background-size: 45vw 150px;
+       
+        
+    }
+     #box12{
+        background-image: url(https://img.freepik.com/premium-photo/photo-indoor-plants-isolated-white-background_763111-119959.jpg);
+        background-repeat: no-repeat;
+        background-size: 45vw 150px;
+       
+        
+    }
+    .boxes h3{
+        margin-left: 10px;
+        font-family: arial;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #000000;
+    }
+    .boxcontainer h2{
+        margin-left: 30vw;
+        display: grid;
+        grid-column: span 3;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    .btns{
+        display: grid;
+        grid-column: span 3;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .btntypes{
+        width: 25vw;
+        height: 30px;
+        margin-left: 3vw;
+        background-color: #f0ecf1 ;
+        border: 1px solid rgb(228, 228, 228);
+        border-radius: 10px;
+    }
+    .buying{
+        width: 100vw;
+        height: 70vh;
+        background-color:  #edf4ed; 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 25vh 7vh 25vh 7vh;
+        
+    }
+    .product1{
+        width: 40vw;
+        height: 20vh;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .buying h4{
+        margin-left: 30px;
+        font-family: arial;
+    }
+    #pro1{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/027/202/480/non_2x/of-carnation-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg);
+        background-size: 40vw 20vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #pro2{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/029/862/605/large_2x/of-sweet-william-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg);
+        background-size: 40vw 20vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #pro3{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/029/865/424/large_2x/of-marigold-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg);
+        background-size: 40vw 20vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #pro4{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/027/200/470/non_2x/of-primula-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg);
+        background-size: 40vw 20vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #headcontant{
+        width: 100vw;
+        height: 30vh;
+        background-color: #294d2e;
+        display: grid;
+    }
+    .id1{
+        margin: 0;
+        font-family: arial;
+        font-size: 30px;
+        color: #fff;
+        margin-top: 60px;
+        margin-left: 20px;
+        display: inline-block;
+
+    }
+    #btnforex{
+        width: 30vw;
+        height: 5vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-top: -50px;
+        border-radius: 20px;
+        background-color: orange;
+        border: none;
+        
+    }
+    #btnforex{
+        
+    }
+
+
+    
+}
